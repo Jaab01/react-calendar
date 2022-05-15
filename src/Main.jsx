@@ -9,8 +9,7 @@ function Main() {
 	return (
 	  <div className="main">
 	  	<Routes>
-		  <Route path="/" element={<App/>} exact />
-	      <Route path="/calendar" element={<Calendar/>} exact />
+	      <Route path="/" element={<Calendar/>} exact />
 		</Routes>
 	  </div>
 	);
